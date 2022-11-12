@@ -1,0 +1,11 @@
+.card {
+    background-color: lightcyan;
+    border-width: 1px;
+}
+
+.weatherIcon {
+    width: 50%;
+    height: auto;
+    margin-left: 35px;
+}
+
