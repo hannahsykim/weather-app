@@ -46,7 +46,7 @@ var API_KEY = '06004f8a17a759fff68c0aee9d340d6a'
 
 // A function that returns a promise. The promise is a fetch coordinate data based on a location
 function getGeoLocation(query, limit = 5) {
-  return fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=${limit}&appid=${API_KEY}`)
+  return fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=${limit}&appid=${API_KEY}`)
 }
 
 // A function that returns a promise. The promise is a fetch the weather based on the coordinates
@@ -126,7 +126,7 @@ function createWeatherDisplay(location) {
       .then(weatherData => {
         console.log(weatherData)
         var weatherPic = document.querySelector('.weather-icon')
-        weatherPic.src = "http://openweathermap.org/img/w/" + (weatherData.weather[0].icon) + ".png";
+        weatherPic.src = "https://openweathermap.org/img/w/" + (weatherData.weather[0].icon) + ".png";
         
 
         var locationName = document.querySelector('.currentName')
@@ -157,7 +157,7 @@ function createWeatherDisplay(location) {
         var newForecast = document.querySelector('.card')
 
         var weatherIcon = document.querySelector('.weatherIcon')
-        weatherIcon.src = "http://openweathermap.org/img/w/" + (fiveDayData.list[i].weather[0].icon) + ".png";
+        weatherIcon.src = "https://openweathermap.org/img/w/" + (fiveDayData.list[i].weather[0].icon) + ".png";
         
         var nextDates = document.querySelector('.day-after');
         nextDates.textContent = timeNow.add(1, "days").format("dddd, MM/DD/YYYY");
