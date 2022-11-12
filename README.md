@@ -31,4 +31,5 @@ The following image shows the web application's appearance and functionality:
 
 ## Links
 https://hannahsykim.github.io/weather-app/
+
 https://github.com/hannahsykim/weather-app
