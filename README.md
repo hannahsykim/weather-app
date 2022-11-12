@@ -25,5 +25,8 @@ THEN I am again presented with current and future conditions for that city
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
+<img width="1478" alt="Screen Shot 2022-11-11 at 7 07 10 PM" src="https://user-images.githubusercontent.com/113808775/201453846-b15a70c8-4ec0-42a4-a4be-6383f20f9722.png">
 
-<img src="/Users/hannahkim/Desktop/Bootcamp-0922/hw-6-weather-app/Screen Shot 2022-11-11 at 7.07.10 PM.png">
+##Links
+https://hannahsykim.github.io/weather-app/
+https://github.com/hannahsykim/weather-app
